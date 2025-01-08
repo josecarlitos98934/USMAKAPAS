@@ -1,144 +1,128 @@
-!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Los Usmakapa</title>
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-            font-family: 'Century Gothic', sans-serif;
-            color: black;
-            text-decoration: none;
-        }
-        body {
-            text-align: center;
-            line-height: 1.6;
-        }
-        .titulo {
-            padding: 40px;
-            background-color: #f4f4f4;
-        }
-        nav ul {
-            width: 80%;
-            margin: 20px auto;
-            border-radius: 10px;
-            list-style-type: none;
-            background-color: #1286c9;
-            padding: 10px 0;
-        }
-        nav li {
-            display: inline;
-            margin: 0 10px;
-        }
-        nav a {
-            padding: 10px 20px;
-            color: white;
-            font-weight: bold;
-            border-radius: 5px;
-        }
-        nav a:hover {
-            background-color: white;
-            color: #1286c9;
-        }
-        .contenido {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin: 30px auto;
-            width: 90%;
-        }
-        .articulo {
-            width: 70%;
-        }
-        .articulo div {
-            padding: 15px;
-            background-color: #32a86b;
-            border-radius: 15px;
-            margin: 15px auto;
-            text-align: left;
-            color: white;
-        }
-        .articulo img {
-            width: 100px;
-            height: auto;
-            border-radius: 15px;
-            margin-top: 10px;
-        }
-        .secundario {
-            width: 90%;
-            margin-top: 30px;
-        }
-        .secundario p {
-            background-color: #b1fc03;
-            border-radius: 15px;
-            padding: 20px;
-            margin: 15px auto;
-            text-align: justify;
-        }
-        .secundario iframe {
-            display: block;
-            margin: 20px auto;
-            border-radius: 10px;
-        }
-        .piedepagina {
-            background-color: #1286c9;
-            padding: 20px;
-            color: white;
-            margin-top: 30px;
-        }
-    </style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Los Usmakapa</title>
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+			font-family: century gothic;
+			color: black;
+			text-decoration: none;
+			text-align: center;
+		}
+		.titulo {
+			padding: 40px;
+		}
+		nav ul {
+			width: 80%;
+			margin: auto;
+			border-radius: 10px;
+			list-style-type: none;
+			background-color: #1286c9;
+		}
+		nav li {
+			display: inline-flex;
+		}
+		nav a {
+			padding: 20px;
+			width: 150px;
+		}
+		nav ul a:hover {
+			background-color: white;
+		}
+		.contenido {
+			display: flex;
+			width: 80%;
+			margin: auto;
+			margin-top: 50px;
+		}
+		.contenido .articulo {
+			width: 70%;
+			margin: auto;
+		}
+		.contenido .articulo div {
+			width: 90%;
+			padding: 15px;
+			background-color: #32a86b;
+			border-radius: 15px;
+			margin-bottom: 15px;
+		}
+		.contenido .articulo img {
+			width: 200px;
+			border-radius: 15px;
+		}
+		.contenido .secundario {
+			width: 40%;
+		}
+		.contenido .secundario p {
+			background-color: #b1fc03;
+			border-radius: 15px;
+			padding: 20px;
+			height: 200px;
+		}
+		.piedepagina {
+			background-color: #1286c9;
+			margin-top: 100px;
+		}
+		.piedepagina p {
+			padding: 100px;
+		}
+	</style>
 </head>
 <body>
-    <header class="titulo">
-        <h1>Los Usmakapa</h1>
-    </header>
 
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Más cosas</a></li>
-            <li><a href="#">Sobre nosotros</a></li>
-        </ul>
-    </nav>
+	<div class="titulo">
+		<h1>Los Usmakapa</h1>
+	</div>
+    <img src="https://dondeestudiar.pe/wp-content/uploads/2024/01/universidad-andina-del-cusco.jpg">
+	<nav>
+		<ul>
+			<li><a href="">Inicio</a></li>
+			<li><a href="">Mas cosas</a></li>
+			<li><a href="">Sobre nosotros</a></li>
+		</ul>
+	</nav>
 
-    <main class="contenido">
-        <section class="articulo">
-            <div>
-                <h2>Jose Carlos Abarca Peña</h2>
-                <p>Estudiante de Ingeniería Ambiental de la UAC</p>
-                <img src="jose.jpg" alt="Foto de Jose Carlos Abarca">
-            </div>
-            <div>
-                <h2>Yessenia Huarco Maqquere</h2>
-                <p>Estudiante de Economía de la UAC</p>
-                <img src="yess.jpg" alt="Foto de Yessenia Huarco">
-            </div>
-            <div>
-                <h2>Dehimon Leo Apaza Mullisaca</h2>
-                <p>Estudiante de Negocios Internacionales de la UAC</p>
-                <img src="leo.jpeg" alt="Foto de Dehimon Leo Apaza">
-            </div>
-        </section>
+	<div class="contenido">
+		<div class="articulo">
+			<div>
+				<h2>Jose Carlos Abarca Peña</h2>
+				<p>Estudiante de Ingeniería Ambiental de la UAC</p>
+				<p>CORREO: 020100397G@uandina.edu.pe</p>
+				<img src="jose.jpg">
+			</div>
+			<div>
+				<h2>Yessenia Huarco Maqquere</h2>
+				<p>Estudiante de Economia de la UAC</p>
+				<p>CORREO: 019201366c@uandina.edu.pe</p>
+				<img src="yess.jpg">
+			</div>
+			<div>
+				<h2>Dehimon Leo Apaza Mullisaca</h2>
+				<p>Estudiante de Negocios internacionales de la UAC</p>
+				<p>CORREO: 017200453A@uandina.edu.pe</p>
+				<img src="leo.jpeg">
+			</div>
+		</div>
+		<div class="secundario">
+			<h2>INFORMACIÓN EXTRA:</h2>
+			<h2>JOSE</h2>
+				<p>Naci un 9 de Septiembre de 2002 en la cuidad de Cusco. Escogi la carrera de Ing.Ambiental porque el tema de la contaminacion es algo muy importante que debemos tomar en cuenta hoy en dia y quiero proponer posibles soluciones en nuestra realidad problematica. Me gustan hacer ejercicio, jugar basketball, viodejuegos y escuchar musica pop y electronica</p>
+			<h2>YESSENIA</h2>
+				<p>Mi interés principal radica en el análisis económico aplicado al desarrollo de las empresas públicas y privadas,he aprendido la importancia de trabajar con dedicación y mantener una mentalidad abierta para superar desafíos.
+				Además disfruto de las manualidades y reposteria. Tambien, me gusta leer, escuchar música como por ejemplo “forever young” y disfruto  pasar tiempo con mi familia y amigos</p>
+			<iframe width="400" height="315" src="https://www.youtube.com/embed/DCoGmBMNQ-Q?si=Mrcd0l3fqJukVDQF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			<h2>DEHIMON</h2>
+				<p>Soy Dehimon Leo, estoy en la escuela de Administración de Negocios  Internacionales porque siempre me llamo la atención el mundo de los negocios y como los países interactuan entre sí atravez del comercio internacional, aparte de ello me gusta los videojuegos, dibujar y escuchar música.</p>
+		</div>
+	</div>
 
-        <aside class="secundario">
-            <h2>Información Extra:</h2>
-            <h3>Jose</h3>
-            <p>Nací el 9 de septiembre de 2002 en la ciudad de Cusco. Escogí la carrera de Ingeniería Ambiental porque el tema de la contaminación es algo muy importante que debemos tomar en cuenta hoy en día. Quiero proponer posibles soluciones a nuestra realidad problemática. Me gusta hacer ejercicio, jugar basketball, videojuegos y escuchar música pop y electrónica.</p>
+	<div class="piedepagina">
+		<p>Mas informacion sobre la pagina</p>
+	</div>
 
-            <h3>Yessenia</h3>
-            <p>Mi interés principal radica en el análisis económico aplicado al desarrollo de las empresas públicas y privadas. He aprendido la importancia de trabajar con dedicación y mantener una mentalidad abierta para superar desafíos. Además, disfruto de las manualidades y repostería. También, me gusta leer, escuchar música como "Forever Young" y pasar tiempo con mi familia y amigos.</p>
-
-            <iframe width="400" height="315" src="https://www.youtube.com/embed/DCoGmBMNQ-Q" title="Video de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-            <h3>Dehimon</h3>
-            <p>Soy Dehimon Leo, estoy en la escuela de Administración de Negocios Internacionales porque siempre me llamó la atención el mundo de los negocios y cómo los países interactúan entre sí a través del comercio internacional. Aparte de ello, me gustan los videojuegos, dibujar y escuchar música.</p>
-        </aside>
-    </main>
-
-    <footer class="piedepagina">
-        <p>Más información sobre la página.</p>
-    </footer>
 </body>
 </html>
